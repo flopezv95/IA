@@ -15,7 +15,8 @@ Character::~Character()
 
 void Character::OnStart()
 {
-
+	ReadNavMesh("NavMesh.xml", mNavMesh);
+	printf("ForPutTheBreakPoint");
 }
 
 void Character::OnStop()
@@ -30,9 +31,15 @@ void Character::OnUpdate(float step)
 void Character::DrawDebug()
 {
 	MOAIGfxDevice& gfxDevice = MOAIGfxDevice::Get();
-	gfxDevice.SetPenColor(0.0f, 0.0f, 1.0f, 0.5f);
 
-	//MOAIDraw::DrawPoint(0.0f, 0.0f);
+	for (int i=0; i< mNavMesh.myPathPoints.size(); i++)
+	{
+		gfxDevice.SetPenColor(0.0f, 0.0f, 1.0f, 0.5f);
+		MOAIDraw::DrawPolygonFilled(mNavMesh.myPathPoints[i].myVertex);
+		gfxDevice.SetPenColor(0.0f, 0.5f, 0.5f, 1.0f);
+		gfxDevice.SetPenWidth(3.0f);
+		MOAIDraw::DrawPolygon(mNavMesh.myPathPoints[i].myVertex);
+	}
 }
 
 

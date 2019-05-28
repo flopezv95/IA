@@ -1,0 +1,125 @@
+<root>
+	<polygons>
+		<polygon>
+			<point x="-275.6267" y ="64.38023"/>
+			<point x="-248.7893" y ="17.8403"/>
+			<point x="-205.2693" y ="-20.94297"/>
+			<point x="-177.7067" y ="-44.98859"/>
+			<point x="-124.7573" y ="22.4943"/>
+			<point x="-145.792" y ="108.5932"/>
+			<point x="-298.112" y ="105.4905"/>
+		</polygon>
+		<polygon>
+			<point x="8.704" y ="-101.6122"/>
+			<point x="155.2213" y ="-79.89354"/>
+			<point x="124.7573" y ="-38.78327"/>
+			<point x="94.29333" y ="0.7756654"/>
+			<point x="6.528" y ="-10.08365"/>
+		</polygon>
+		<polygon>
+			<point x="127.6587" y ="41.88593"/>
+			<point x="95.744" y ="-1.551331"/>
+			<point x="155.2213" y ="-82.9962"/>
+			<point x="276.352" y ="0.7756654"/>
+			<point x="314.7947" y ="78.34221"/>
+			<point x="196.5653" y ="93.07985"/>
+		</polygon>
+		<polygon>
+			<point x="-106.624" y ="-96.95818"/>
+			<point x="-30.464" y ="-100.8365"/>
+			<point x="7.978667" y ="-98.50951"/>
+			<point x="7.978667" y ="-10.85932"/>
+			<point x="-124.7573" y ="26.37262"/>
+			<point x="-179.1573" y ="-41.88593"/>
+		</polygon>
+		<polygon>
+			<point x="-303.1893" y ="144.2738"/>
+			<point x="-293.76" y ="138.0684"/>
+			<point x="-167.552" y ="142.7224"/>
+			<point x="-134.1867" y ="223.3916"/>
+			<point x="-287.232" y ="200.8973"/>
+		</polygon>
+		<polygon>
+			<point x="166.1013" y ="104.7148"/>
+			<point x="205.9947" y ="89.97719"/>
+			<point x="507.7333" y ="51.19392"/>
+			<point x="513.536" y ="166.7681"/>
+			<point x="195.1147" y ="159.7871"/>
+			<point x="171.1787" y ="143.4981"/>
+		</polygon>
+		<polygon>
+			<point x="189.312" y ="159.7871"/>
+			<point x="335.104" y ="162.1141"/>
+			<point x="338.7307" y ="227.27"/>
+			<point x="156.672" y ="360.6844"/>
+			<point x="135.6373" y ="256.7452"/>
+		</polygon>
+		<polygon>
+			<point x="-291.584" y ="200.1217"/>
+			<point x="-136.3627" y ="223.3916"/>
+			<point x="-2.176" y ="286.2205"/>
+			<point x="-26.112" y ="383.1787"/>
+			<point x="-142.8907" y ="382.403"/>
+			<point x="-205.2693" y ="326.5551"/>
+		</polygon>
+		<polygon>
+			<point x="-5.077333" y ="286.2205"/>
+			<point x="101.5467" y ="266.8289"/>
+			<point x="138.5387" y ="260.6236"/>
+			<point x="158.1227" y ="364.5627"/>
+			<point x="-25.38667" y ="382.403"/>
+		</polygon>
+		<polygon>
+			<point x="-434.4747" y ="100.8365"/>
+			<point x="-142.1653" y ="107.0418"/>
+			<point x="-160.2987" y ="142.7224"/>
+			<point x="-439.552" y ="135.7414"/>
+		</polygon>
+	</polygons>
+	<links>
+		<link>
+			<start polygon="-1" edgestart="2" edgeend="3"/>
+			<end polygon="4" edgestart="1" edgeend="2"/>
+		</link>
+		<link>
+			<start polygon="-1" edgestart="1" edgeend="2"/>
+			<end polygon="0" edgestart="5" edgeend="6"/>
+		</link>
+		<link>
+			<start polygon="-1" edgestart="3" edgeend="4"/>
+			<end polygon="4" edgestart="1" edgeend="2"/>
+		</link>
+		<link>
+			<start polygon="0" edgestart="3" edgeend="4"/>
+			<end polygon="3" edgestart="4" edgeend="5"/>
+		</link>
+		<link>
+			<start polygon="1" edgestart="4" edgeend="0"/>
+			<end polygon="3" edgestart="2" edgeend="3"/>
+		</link>
+		<link>
+			<start polygon="1" edgestart="2" edgeend="3"/>
+			<end polygon="2" edgestart="1" edgeend="2"/>
+		</link>
+		<link>
+			<start polygon="2" edgestart="4" edgeend="5"/>
+			<end polygon="5" edgestart="1" edgeend="2"/>
+		</link>
+		<link>
+			<start polygon="5" edgestart="3" edgeend="4"/>
+			<end polygon="6" edgestart="0" edgeend="1"/>
+		</link>
+		<link>
+			<start polygon="6" edgestart="3" edgeend="4"/>
+			<end polygon="8" edgestart="2" edgeend="3"/>
+		</link>
+		<link>
+			<start polygon="7" edgestart="2" edgeend="3"/>
+			<end polygon="8" edgestart="4" edgeend="0"/>
+		</link>
+		<link>
+			<start polygon="4" edgestart="3" edgeend="4"/>
+			<end polygon="7" edgestart="0" edgeend="1"/>
+		</link>
+	</links>
+</root>
