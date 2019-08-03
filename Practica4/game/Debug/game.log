@@ -1,7 +1,4 @@
-﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-cl : Command line warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
-  character.cpp
-c:\users\felipe.lopez\downloads\inteligenciaartificial\practica4\practicas\game\character.cpp(35): warning C4018: '<': signed/unsigned mismatch
-  game.vcxproj -> C:\Users\felipe.lopez\Downloads\InteligenciaArtificial\Practica4\practicas\game\.\bin\Win32\Debug\game.exe
-  ..\moai\3rdparty\glut-3.7.6-bin\glut32.dll
-  1 File(s) copied
+﻿cl : Línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+cl : Línea de comandos warning D9035: La opción 'Zc:forScope-' está desusada y se quitará en próximas versiones
+  stdafx.cpp
+c:\users\felipe l\desktop\u-tad\ia\practicasgit\practica4\game\stdafx.h(1): fatal error C1083: No se puede abrir el archivo incluir: 'moaicore/pch.h': No such file or directory
