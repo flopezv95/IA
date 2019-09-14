@@ -17,6 +17,7 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="params.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character.h" />
@@ -32,6 +33,7 @@
     </ClInclude>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="params.h" />
+    <ClInclude Include="StateMachine.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="host">
