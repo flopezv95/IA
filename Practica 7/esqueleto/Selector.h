@@ -1,17 +1,17 @@
 #pragma once
-#pragma once
 #include "Sequence.h"
+#include "Grupo.h"
 #include <vector>
 
-class Selector
+class Selector: public Group
 {
 protected:
 	void onEnter();
-	Status update();
 	int m_CurrentSequence;
 	typedef std::vector<Sequence*> Sequences;
 	Sequences m_ChildrenSequence;
 
 public:
+	Status update();
 	void AddSequence(Sequence * sequenceToAdd);
 };

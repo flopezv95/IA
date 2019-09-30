@@ -1,25 +1,25 @@
 #pragma once
 
-class SM
-{
-	enum States 
-	{ 
-		eIdle, 
-		eAttack,
-		eAlarm,
-		eHit,
-		eDead,
-		eRunAway 
-	};
+#include <iostream>
+#include <vector>
 
+class Character;
+class State;
+
+class StateMachine
+{
 public:
-	SM();
+	StateMachine(Character* newChOwner);
+	void AddNewState(State* newState);
+	State* GetStateFromName(std::string stateName);
+	std::vector<State*> GetAllStates() { return m_States; }
+	void Load();
+	void Start();
 	void Update();
+	Character* GetChOwner() { return chOwner; }
+
 private:
-	void Idle(); 
-	void Attack(); 
-	void Runaway();
-	void Alarm();
-	void Hit();
-	void Dead();
+	std::vector<State*> m_States;
+	State* m_currentState;
+	Character* chOwner;
 };

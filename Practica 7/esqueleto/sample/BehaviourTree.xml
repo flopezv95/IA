@@ -1,0 +1,20 @@
+<root>
+	<selector>
+		<group value="sequence"> 
+			<behaviour value="diecondition"> </behaviour>
+			<behaviour value="dieaction"> </behaviour>
+		</group>
+		<group value="sequence"> 
+			<behaviour value="iscloseenoughcondition"> </behaviour>
+			<behaviour value="attackaction"> </behaviour>
+		</group>
+		<group value="sequence"> 
+			<behaviour value="canseeplayercondition"> </behaviour>
+			<behaviour value="alertedaction"> </behaviour>
+		</group>
+		<group value="sequence"> 
+			<behaviour value="isfarenoughtcondition"> </behaviour>
+			<behaviour value="idleaction"> </behaviour>
+		</group>
+	</selector>
+</root>

@@ -15,7 +15,7 @@
     <RootNamespace>moai</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>game</ProjectName>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -124,15 +124,28 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlertedAction.cpp" />
+    <ClCompile Include="AlignSteering.cpp" />
+    <ClCompile Include="AlignToMovementSteering.cpp" />
+    <ClCompile Include="ArriveSteering.cpp" />
+    <ClCompile Include="AttackAction.cpp" />
     <ClCompile Include="Behaviour.cpp" />
+    <ClCompile Include="CanSeePlayerCondition.cpp" />
     <ClCompile Include="character.cpp" />
+    <ClCompile Include="DieAction.cpp" />
     <ClCompile Include="gameConfig.cpp" />
     <ClCompile Include="Grupo.cpp" />
     <ClCompile Include="host\FolderWatcher-win.cpp" />
     <ClCompile Include="host\GlutHost.cpp" />
     <ClCompile Include="host\GlutHostMain.cpp" />
     <ClCompile Include="host\ParticlePresets.cpp" />
+    <ClCompile Include="IdleAction.cpp" />
+    <ClCompile Include="IsCloseEnoughCondition.cpp" />
+    <ClCompile Include="IsDeadCondition.cpp" />
+    <ClCompile Include="IsFarEnoughtCondition.cpp" />
     <ClCompile Include="params.cpp" />
+    <ClCompile Include="PathfindingSteering.cpp" />
+    <ClCompile Include="SeekSteering.cpp" />
     <ClCompile Include="Selector.cpp" />
     <ClCompile Include="Sequence.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -140,17 +153,35 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="AlertedAction.h" />
+    <ClInclude Include="AlignSteering.h" />
+    <ClInclude Include="AlignToMovementSteering.h" />
+    <ClInclude Include="ArriveSteering.h" />
+    <ClInclude Include="AttackAction.h" />
     <ClInclude Include="Behaviour.h" />
+    <ClInclude Include="BT.h" />
+    <ClInclude Include="BTNode.h" />
+    <ClInclude Include="CanSeePlayerCondition.h" />
     <ClInclude Include="character.h" />
+    <ClInclude Include="Condition.h" />
+    <ClInclude Include="DieAction.h" />
     <ClInclude Include="gameConfig.h" />
     <ClInclude Include="Grupo.h" />
     <ClInclude Include="host\FolderWatcher-win.h" />
     <ClInclude Include="host\GlutHost.h" />
     <ClInclude Include="host\ParticlePresets.h" />
+    <ClInclude Include="IdleAction.h" />
+    <ClInclude Include="IsCloseEnoughCondition.h" />
+    <ClInclude Include="IsDeadCondition.h" />
+    <ClInclude Include="IsFarEnoughtCondition.h" />
     <ClInclude Include="params.h" />
+    <ClInclude Include="PathfindingSteering.h" />
+    <ClInclude Include="SeekSteering.h" />
     <ClInclude Include="Selector.h" />
     <ClInclude Include="Sequence.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="sample\test.lua" />

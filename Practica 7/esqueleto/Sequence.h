@@ -7,4 +7,6 @@ protected:
 	void onEnter(); 
 	Status update();
 	int m_CurrentChild;
+public:
+	virtual Status tick() override;
 };

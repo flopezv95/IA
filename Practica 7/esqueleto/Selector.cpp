@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "Sequence.h"
 #include "Selector.h"
 
 void Selector::onEnter()
@@ -11,13 +12,14 @@ Status Selector::update()
 	while (true)
 	{
 		Status s = m_ChildrenSequence[m_CurrentSequence]->tick();
-		if (s != eSuccess)
+		if (s == eSuccess)
 		{
 			return s;
 		}
 		++m_CurrentSequence;
 		if (m_CurrentSequence == m_ChildrenSequence.size())
 		{
+			m_CurrentSequence = 0;
 			return eSuccess;
 		}
 	}

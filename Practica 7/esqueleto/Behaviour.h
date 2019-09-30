@@ -1,24 +1,14 @@
 #pragma once
-
+#include "BTNode.h"
 class Character;
 
-enum Status 
-{ eInvalid, 
-  eSuccess, 
-  eFail,
-  eRunning, 
-};
-
-class Behavior 
+class Behavior: public BTNode
 { 
-protected: 
-	Status update(); 
-	void onEnter(); 
-	void onExit(); 
-public: 
-	Behavior(Character* owner);
-	Status tick(); 
-private: 
-	Status m_Status; 
-	Character* m_Owner;
+protected:
+	virtual Status update();
+	virtual void onEnter(); 
+	virtual void onExit(); 
+
+public:
+	virtual Status tick() override;
 };

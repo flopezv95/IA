@@ -17,10 +17,57 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="params.cpp" />
-    <ClCompile Include="Behaviour.cpp" />
-    <ClCompile Include="Grupo.cpp" />
-    <ClCompile Include="Sequence.cpp" />
-    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="Behaviour.cpp">
+      <Filter>BT</Filter>
+    </ClCompile>
+    <ClCompile Include="Grupo.cpp">
+      <Filter>BT</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>BT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence.cpp">
+      <Filter>BT</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignSteering.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignToMovementSteering.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="ArriveSteering.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindingSteering.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekSteering.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertedAction.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="CanSeePlayerCondition.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="IsCloseEnoughCondition.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="IsDeadCondition.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="IsFarEnoughtCondition.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="DieAction.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleAction.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackAction.cpp">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character.h" />
@@ -36,10 +83,70 @@
     </ClInclude>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="params.h" />
-    <ClInclude Include="Behaviour.h" />
-    <ClInclude Include="Grupo.h" />
-    <ClInclude Include="Sequence.h" />
-    <ClInclude Include="Selector.h" />
+    <ClInclude Include="BT.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BTNode.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="Grupo.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignSteering.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignToMovementSteering.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="ArriveSteering.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindingSteering.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekSteering.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertedAction.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="CanSeePlayerCondition.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="DieAction.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleAction.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="IsCloseEnoughCondition.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="IsDeadCondition.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="IsFarEnoughtCondition.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h" />
+    <ClInclude Include="Action.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackAction.h">
+      <Filter>BT\BehavioursAndConditions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="host">
@@ -47,6 +154,15 @@
     </Filter>
     <Filter Include="sample">
       <UniqueIdentifier>{dafee91e-18b1-4dd7-a488-726565484f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BT">
+      <UniqueIdentifier>{420bae66-0eda-45c8-92a6-855c2017d3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{67ea33b5-24d6-4d0e-a91a-eed755dc855a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BT\BehavioursAndConditions">
+      <UniqueIdentifier>{d7cf6795-6277-45cb-a4ee-d52dd68d08d2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

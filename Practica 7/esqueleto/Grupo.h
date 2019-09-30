@@ -1,14 +1,16 @@
 #pragma once
+#include "BTNode.h"
 #include "Behaviour.h"
 #include <vector>
 
-class Group : public Behavior 
+class Group: public BTNode
 { 
 protected: 
 
-	typedef std::vector<Behavior*> Behaviors; 
-	Behaviors m_Children; 
+	typedef std::vector<Behavior*> Nodes; 
+	Nodes m_Children; 
 
 public:
-	void AddBehaviour(Behavior * behaviorToAdd);
+	void AddNode(Behavior* nodeToAdd);
+	virtual void SetOwner(Character* newOwner) override;
 };
